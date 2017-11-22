@@ -538,7 +538,7 @@ document.addEventListener('touchend', event => {
     let deltaX = endX - startX;
     let deltaY = endY - startY;
 
-    if (Math.abs(deltaX) < 0.2 * document.body.clientWidth && Math.abs(deltaY) < 0.2 * document.body.clientWidth) {
+    if (Math.abs(deltaX) < 0.1 * document.body.clientWidth && Math.abs(deltaY) < 0.1 * document.body.clientWidth) {
         return;
     }
 
